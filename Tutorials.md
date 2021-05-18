@@ -34,7 +34,7 @@ st.plots.plot_spatial_distribution(andata)
 st.plots.plot_violin_distribution(andata)
 ```
 
-<img src="https://raw.githubusercontent.com/molindoudou/bio_tools/main/data/spatial_distribution.png" width = "300" height = "100" alt="空间分布散点图" align=center />
+<img src="https://raw.githubusercontent.com/molindoudou/bio_tools/main/data/spatial_distribution.png" width = "500" height = "300" alt="空间分布散点图" align=center />
 
 空间分布散点图，能够展示小鼠的组织切片在空间范围的转录表达大体情况。
 
