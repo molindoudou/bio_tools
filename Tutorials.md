@@ -34,11 +34,11 @@ st.plots.plot_spatial_distribution(andata)
 st.plots.plot_violin_distribution(andata)
 ```
 
-<img src="https://raw.githubusercontent.com/molindoudou/bio_tools/main/data/spatial_distribution.png" width = "500" height = "300" alt="空间分布散点图" align=center />
+<img src="https://raw.githubusercontent.com/molindoudou/bio_tools/main/data/spatial_distribution.png" width = "500" height = "250" alt="空间分布散点图" align=center />
 
 空间分布散点图，能够展示小鼠的组织切片在空间范围的转录表达大体情况。
 
-![violin](https://github.com/molindoudou/bio_tools/blob/main/data/violin_distribution.png?raw=true)
+<img src="https://github.com/molindoudou/bio_tools/blob/main/data/violin_distribution.png?raw=true" width = "500" height = "200" alt="小提琴图" align=center />
 
 小提琴图
 ### 4.Dimensionality reduction
@@ -55,7 +55,9 @@ cluster = st.tools.Clustering(data=andata, method='leiden', outdir=None, dim_red
 cluster.fit()
 st.plots.plot_spatial_cluster(andata, obs_key=['clustering'])
 ```
-![聚类分布图](https://github.com/molindoudou/bio_tools/blob/main/data/spatial_cluster.png?raw=true)
+
+<img src="https://github.com/molindoudou/bio_tools/blob/main/data/spatial_cluster.png?raw=true" width = "500" height = "500" alt="聚类空间分布散点图" align=center />
+
 
 对所有位点进行聚类后，再查看其空间分布情况
 
@@ -66,7 +68,8 @@ marker.fit()
 st.plots.plot_heatmap_maker_genes(andata, marker_uns_key='marker_test', cluster_method='clustering')
 ```
 
-![聚类分布图](https://github.com/molindoudou/bio_tools/blob/main/data/heatmap.png?raw=true)
+<img src="https://github.com/molindoudou/bio_tools/blob/main/data/heatmap.png?raw=true" width = "500" height = "600" alt="热图" align=center />
+
 
 ### 7.annotation
 ```python
@@ -75,4 +78,5 @@ cell_anno.fit()
 st.plots.plot_degs(andata, key='marker_test')
 ```
 
-![聚类分布图](https://github.com/molindoudou/bio_tools/blob/main/data/degs.png?raw=true)
+<img src="https://github.com/molindoudou/bio_tools/blob/main/data/degs.png?raw=true" width = "500" height = "500" alt="热图" align=center />
+
