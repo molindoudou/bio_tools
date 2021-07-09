@@ -19,4 +19,5 @@ def md_to_rst(from_file, to_file):
 
 
 if __name__ == '__main__':
-    md_to_rst("Tutorials.md", "Tutorials.rst")
+    # md_to_rst("Tutorials.md", "Tutorials.rst")
+    import pysal
